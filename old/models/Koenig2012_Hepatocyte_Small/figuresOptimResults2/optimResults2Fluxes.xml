@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fluxDistributionCollection>
+   <listOfFluxDistributions>
+      <fluxDistribution id="001_G1_1" name="001_G1_1" networkId="Koenig2012_Hepatocyte_Small">
+         <listOfFluxes>
+            <flux fluxValue="5.8824" id="GLCT" type="nodeFlux"/>
+            <flux fluxValue="5.8824" id="GK" type="nodeFlux"/>
+            <flux fluxValue="-29.4118" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="5.8824" id="FBP1" type="nodeFlux"/>
+            <flux fluxValue="-5.8824" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="35.2941" id="CO2T" type="nodeFlux"/>
+            <flux fluxValue="35.2941" id="OXP3" type="nodeFlux"/>
+            <flux fluxValue="156.4706" id="ATPASE" type="nodeFlux"/>
+            <flux fluxValue="35.2941" id="G6PD" type="nodeFlux"/>
+            <flux fluxValue="35.2941" id="L6PGD" type="nodeFlux"/>
+            <flux fluxValue="23.5294" id="EP" type="nodeFlux"/>
+            <flux fluxValue="11.7647" id="KI" type="nodeFlux"/>
+            <flux fluxValue="11.7647" id="TK1" type="nodeFlux"/>
+            <flux fluxValue="11.7647" id="TA" type="nodeFlux"/>
+            <flux fluxValue="11.7647" id="TK2" type="nodeFlux"/>
+            <flux fluxValue="35.2941" id="O2T" type="nodeFlux"/>
+            <flux fluxValue="-5.8824" id="TPI" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="002_G1_2" name="002_G1_2" networkId="Koenig2012_Hepatocyte_Small">
+         <listOfFluxes>
+            <flux fluxValue="5.5556" id="GLCT" type="nodeFlux"/>
+            <flux fluxValue="5.5556" id="GK" type="nodeFlux"/>
+            <flux fluxValue="-27.7778" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="5.5556" id="FBP1" type="nodeFlux"/>
+            <flux fluxValue="-5.5556" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="33.3333" id="CO2T" type="nodeFlux"/>
+            <flux fluxValue="1.2077" id="OXP3" type="nodeFlux"/>
+            <flux fluxValue="64.2512" id="GSHOX" type="nodeFlux"/>
+            <flux fluxValue="33.3333" id="G6PD" type="nodeFlux"/>
+            <flux fluxValue="33.3333" id="L6PGD" type="nodeFlux"/>
+            <flux fluxValue="64.2512" id="GSSGR" type="nodeFlux"/>
+            <flux fluxValue="22.2222" id="EP" type="nodeFlux"/>
+            <flux fluxValue="11.1111" id="KI" type="nodeFlux"/>
+            <flux fluxValue="11.1111" id="TK1" type="nodeFlux"/>
+            <flux fluxValue="11.1111" id="TA" type="nodeFlux"/>
+            <flux fluxValue="11.1111" id="TK2" type="nodeFlux"/>
+            <flux fluxValue="1.2077" id="O2T" type="nodeFlux"/>
+            <flux fluxValue="-5.5556" id="TPI" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="003_G1_3" name="003_G1_3" networkId="Koenig2012_Hepatocyte_Small">
+         <listOfFluxes>
+            <flux fluxValue="5" id="GLCT" type="nodeFlux"/>
+            <flux fluxValue="5" id="GK" type="nodeFlux"/>
+            <flux fluxValue="5" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="5" id="PFK1" type="nodeFlux"/>
+            <flux fluxValue="5" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="5" id="GRP" type="nodeFlux"/>
+            <flux fluxValue="5" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="5" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="5" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="5" id="EN" type="nodeFlux"/>
+            <flux fluxValue="5" id="PK" type="nodeFlux"/>
+            <flux fluxValue="5" id="PDH" type="nodeFlux"/>
+            <flux fluxValue="5" id="TCA" type="nodeFlux"/>
+            <flux fluxValue="15" id="CO2T" type="nodeFlux"/>
+            <flux fluxValue="10" id="OXP1" type="nodeFlux"/>
+            <flux fluxValue="2.5" id="OxP2" type="nodeFlux"/>
+            <flux fluxValue="57.5" id="ATPASE" type="nodeFlux"/>
+            <flux fluxValue="-5" id="NDPK1" type="nodeFlux"/>
+            <flux fluxValue="12.5" id="O2T" type="nodeFlux"/>
+            <flux fluxValue="5" id="GlYT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="004_G1_4" name="004_G1_4" networkId="Koenig2012_Hepatocyte_Small">
+         <listOfFluxes>
+            <flux fluxValue="4" id="GLCT" type="nodeFlux"/>
+            <flux fluxValue="4" id="GK" type="nodeFlux"/>
+            <flux fluxValue="-1.4194" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="2.1935" id="PFK1" type="nodeFlux"/>
+            <flux fluxValue="2.1935" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="EN" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="PK" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="PDH" type="nodeFlux"/>
+            <flux fluxValue="11.6129" id="CO2T" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="OXP1" type="nodeFlux"/>
+            <flux fluxValue="29.2645" id="ATPASE" type="nodeFlux"/>
+            <flux fluxValue="5.4194" id="G6PD" type="nodeFlux"/>
+            <flux fluxValue="5.4194" id="L6PGD" type="nodeFlux"/>
+            <flux fluxValue="3.6129" id="EP" type="nodeFlux"/>
+            <flux fluxValue="1.8065" id="KI" type="nodeFlux"/>
+            <flux fluxValue="1.8065" id="TK1" type="nodeFlux"/>
+            <flux fluxValue="1.8065" id="TA" type="nodeFlux"/>
+            <flux fluxValue="1.8065" id="TK2" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="O2T" type="nodeFlux"/>
+            <flux fluxValue="0.77419" id="PALT" type="nodeFlux"/>
+            <flux fluxValue="0.77419" id="FS" type="nodeFlux"/>
+            <flux fluxValue="2.1935" id="TPI" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="005_G2_1" name="005_G2_1" networkId="Koenig2012_Hepatocyte_Small">
+         <listOfFluxes>
+            <flux fluxValue="5.8824" id="GLCT" type="nodeFlux"/>
+            <flux fluxValue="5.8824" id="GK" type="nodeFlux"/>
+            <flux fluxValue="-29.4118" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="5.8824" id="FBP1" type="nodeFlux"/>
+            <flux fluxValue="-5.8824" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="35.2941" id="CO2T" type="nodeFlux"/>
+            <flux fluxValue="35.2941" id="OXP3" type="nodeFlux"/>
+            <flux fluxValue="156.4706" id="ATPASE" type="nodeFlux"/>
+            <flux fluxValue="35.2941" id="G6PD" type="nodeFlux"/>
+            <flux fluxValue="35.2941" id="L6PGD" type="nodeFlux"/>
+            <flux fluxValue="23.5294" id="EP" type="nodeFlux"/>
+            <flux fluxValue="11.7647" id="KI" type="nodeFlux"/>
+            <flux fluxValue="11.7647" id="TK1" type="nodeFlux"/>
+            <flux fluxValue="11.7647" id="TA" type="nodeFlux"/>
+            <flux fluxValue="11.7647" id="TK2" type="nodeFlux"/>
+            <flux fluxValue="35.2941" id="O2T" type="nodeFlux"/>
+            <flux fluxValue="-5.8824" id="TPI" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="006_G2_2" name="006_G2_2" networkId="Koenig2012_Hepatocyte_Small">
+         <listOfFluxes>
+            <flux fluxValue="5.5556" id="GLCT" type="nodeFlux"/>
+            <flux fluxValue="5.5556" id="GK" type="nodeFlux"/>
+            <flux fluxValue="-27.7778" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="5.5556" id="FBP1" type="nodeFlux"/>
+            <flux fluxValue="-5.5556" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="33.3333" id="CO2T" type="nodeFlux"/>
+            <flux fluxValue="1.2077" id="OXP3" type="nodeFlux"/>
+            <flux fluxValue="64.2512" id="GSHOX" type="nodeFlux"/>
+            <flux fluxValue="33.3333" id="G6PD" type="nodeFlux"/>
+            <flux fluxValue="33.3333" id="L6PGD" type="nodeFlux"/>
+            <flux fluxValue="64.2512" id="GSSGR" type="nodeFlux"/>
+            <flux fluxValue="22.2222" id="EP" type="nodeFlux"/>
+            <flux fluxValue="11.1111" id="KI" type="nodeFlux"/>
+            <flux fluxValue="11.1111" id="TK1" type="nodeFlux"/>
+            <flux fluxValue="11.1111" id="TA" type="nodeFlux"/>
+            <flux fluxValue="11.1111" id="TK2" type="nodeFlux"/>
+            <flux fluxValue="1.2077" id="O2T" type="nodeFlux"/>
+            <flux fluxValue="-5.5556" id="TPI" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="007_G2_3" name="007_G2_3" networkId="Koenig2012_Hepatocyte_Small">
+         <listOfFluxes>
+            <flux fluxValue="5" id="GLCT" type="nodeFlux"/>
+            <flux fluxValue="5" id="GK" type="nodeFlux"/>
+            <flux fluxValue="5" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="5" id="PFK1" type="nodeFlux"/>
+            <flux fluxValue="5" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="5" id="GRP" type="nodeFlux"/>
+            <flux fluxValue="5" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="5" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="5" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="5" id="EN" type="nodeFlux"/>
+            <flux fluxValue="5" id="PK" type="nodeFlux"/>
+            <flux fluxValue="5" id="PDH" type="nodeFlux"/>
+            <flux fluxValue="5" id="TCA" type="nodeFlux"/>
+            <flux fluxValue="15" id="CO2T" type="nodeFlux"/>
+            <flux fluxValue="10" id="OXP1" type="nodeFlux"/>
+            <flux fluxValue="2.5" id="OxP2" type="nodeFlux"/>
+            <flux fluxValue="57.5" id="ATPASE" type="nodeFlux"/>
+            <flux fluxValue="-5" id="NDPK1" type="nodeFlux"/>
+            <flux fluxValue="12.5" id="O2T" type="nodeFlux"/>
+            <flux fluxValue="5" id="GlYT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="008_G2_4" name="008_G2_4" networkId="Koenig2012_Hepatocyte_Small">
+         <listOfFluxes>
+            <flux fluxValue="4" id="GLCT" type="nodeFlux"/>
+            <flux fluxValue="4" id="GK" type="nodeFlux"/>
+            <flux fluxValue="-1.4194" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="2.1935" id="PFK1" type="nodeFlux"/>
+            <flux fluxValue="2.1935" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="EN" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="PK" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="PDH" type="nodeFlux"/>
+            <flux fluxValue="11.6129" id="CO2T" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="OXP1" type="nodeFlux"/>
+            <flux fluxValue="29.2645" id="ATPASE" type="nodeFlux"/>
+            <flux fluxValue="5.4194" id="G6PD" type="nodeFlux"/>
+            <flux fluxValue="5.4194" id="L6PGD" type="nodeFlux"/>
+            <flux fluxValue="3.6129" id="EP" type="nodeFlux"/>
+            <flux fluxValue="1.8065" id="KI" type="nodeFlux"/>
+            <flux fluxValue="1.8065" id="TK1" type="nodeFlux"/>
+            <flux fluxValue="1.8065" id="TA" type="nodeFlux"/>
+            <flux fluxValue="1.8065" id="TK2" type="nodeFlux"/>
+            <flux fluxValue="6.1935" id="O2T" type="nodeFlux"/>
+            <flux fluxValue="0.77419" id="PALT" type="nodeFlux"/>
+            <flux fluxValue="0.77419" id="FS" type="nodeFlux"/>
+            <flux fluxValue="2.1935" id="TPI" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="009_G2_5" name="009_G2_5" networkId="Koenig2012_Hepatocyte_Small">
+         <listOfFluxes>
+            <flux fluxValue="7.6923" id="GLCT" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="GK" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="CO2T" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="OXP3" type="nodeFlux"/>
+            <flux fluxValue="12.3077" id="ATPASE" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="G6PD" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="L6PGD" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="KI" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="PRPPS" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="PRPPT" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="AK" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="O2T" type="nodeFlux"/>
+            <flux fluxValue="-23.0769" id="PT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="010_S_1" name="010_S_1" networkId="Koenig2012_Hepatocyte_Small">
+         <listOfFluxes>
+            <flux fluxValue="5" id="GLCT" type="nodeFlux"/>
+            <flux fluxValue="5" id="GK" type="nodeFlux"/>
+            <flux fluxValue="-36.5385" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="8.8462" id="FBP1" type="nodeFlux"/>
+            <flux fluxValue="-8.8462" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="3.8462" id="GKD" type="nodeFlux"/>
+            <flux fluxValue="41.5385" id="CO2T" type="nodeFlux"/>
+            <flux fluxValue="1.9231" id="OXP1" type="nodeFlux"/>
+            <flux fluxValue="83.0769" id="GSHOX" type="nodeFlux"/>
+            <flux fluxValue="41.5385" id="G6PD" type="nodeFlux"/>
+            <flux fluxValue="41.5385" id="L6PGD" type="nodeFlux"/>
+            <flux fluxValue="83.0769" id="GSSGR" type="nodeFlux"/>
+            <flux fluxValue="27.6923" id="EP" type="nodeFlux"/>
+            <flux fluxValue="13.8462" id="KI" type="nodeFlux"/>
+            <flux fluxValue="13.8462" id="TK1" type="nodeFlux"/>
+            <flux fluxValue="13.8462" id="TA" type="nodeFlux"/>
+            <flux fluxValue="13.8462" id="TK2" type="nodeFlux"/>
+            <flux fluxValue="1.9231" id="O2T" type="nodeFlux"/>
+            <flux fluxValue="-3.8462" id="GlYT" type="nodeFlux"/>
+            <flux fluxValue="-5" id="TPI" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="011_S_2" name="011_S_2" networkId="Koenig2012_Hepatocyte_Small">
+         <listOfFluxes>
+            <flux fluxValue="7.6923" id="GLCT" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="GK" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="CO2T" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="OXP3" type="nodeFlux"/>
+            <flux fluxValue="12.3077" id="ATPASE" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="G6PD" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="L6PGD" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="KI" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="PRPPS" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="PRPPT" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="AK" type="nodeFlux"/>
+            <flux fluxValue="7.6923" id="O2T" type="nodeFlux"/>
+            <flux fluxValue="-23.0769" id="PT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="012_S_3" name="012_S_3" networkId="Koenig2012_Hepatocyte_Small">
+         <listOfFluxes>
+            <flux fluxValue="80" id="TCA" type="nodeFlux"/>
+            <flux fluxValue="160" id="CO2T" type="nodeFlux"/>
+            <flux fluxValue="155" id="OXP1" type="nodeFlux"/>
+            <flux fluxValue="75" id="OxP2" type="nodeFlux"/>
+            <flux fluxValue="968" id="ATPASE" type="nodeFlux"/>
+            <flux fluxValue="-80" id="NDPK1" type="nodeFlux"/>
+            <flux fluxValue="10" id="AK" type="nodeFlux"/>
+            <flux fluxValue="230" id="O2T" type="nodeFlux"/>
+            <flux fluxValue="-10" id="PALT" type="nodeFlux"/>
+            <flux fluxValue="10" id="BOX" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+   </listOfFluxDistributions>
+</fluxDistributionCollection>

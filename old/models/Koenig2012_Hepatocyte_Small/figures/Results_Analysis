@@ -1,0 +1,58 @@
+Overview FBA Results
+-----------------------
+# 001_G1_1
+Glucose uptake which is used to generate NADPH (PPP) and some pyruvate in glycolysis. The pyr is used for fatty acid synthesis of palmitate which is exported; energy comes from Oxphos of the NADH which is generated in glycolysis and the PDH reaction
+
+# 002_G1_2
+Glucose uptake which is used in glycolysis. Large part is exported as glycerol coming from the DHAP node. Large quantities of NADH necessary for the DHAP -> glycerol reaction.
+The rest of the solution generates the NADH via TCA cycle of pyruvate and ATP via oxphos for ATP depending upper reactions of glycolysis.
+(?? physiological solution ?? -> why is glycerol necessary for G1 ?).
+
+# 003_G1_3
+Glucose uptake and complete oxidation in PPP to generate NADPH. Oxidative phosphorylation uses the NADP to generate ATP for the ATP use reaction.
+(?? not very physiological ?? -> normally NADH is generated via glycolysis and TCA which is used in oxphos to . Could be problem of counting the reactions instead of using fluxes !)
+
+# 004_G1_4
+Very similar to G1_3, but most of the NADPH from oxidative PPP is used for oxidative stress recycling (GSHOX reaction).
+
+# 005_G2_1
+glucose uptake, partially used for NADPH generation in oxidative PPP and partly converted to pyruvate in glycolysis. Pyruvate is used for Fatty Acid synthesis with the NADPH and export of palmitate, energy comes from the oxphos of the NADH from glycolysis. Very nice physiological solution., similar got G1_1
+
+# 006_G2_2
+glucose import, part to glycerol export again (!!!), very similar to G1_2
+
+# 007_G2_3
+glucose burnt to NADPH in oxidative PPP and generation of ATP from the NADPH, very similar to G1_3
+
+# 008_G2_4
+similar to  G2_4
+
+# 009_G2_5
+glucose uptake and PRPPS synthesis. Glucose is completely burnt in the oxidative part of PPP to generate NADPH and Ribose-5P for PRPP synthesis. Energy comes again from the OXPHOS 3 via NADPH to ATP.
+
+# 010_S1_1
+very similar to G1_3
+
+# 011_S1_2
+very similar to G1_4
+
+# 012_S1_3
+very similar to G2_5
+
+
+### Comments ###
+I looked in your results matrix G1_1 - G1_4 are identical to G2_1 - G2_4 ? Should this be like this ? Did you take the right constraints for G1 and G2?
+
+- Why palmitate transport irreversible in export direction ? (import & export)
+- Why glycerol transport irreversible in export direction ? (import & export)
+Is a bit of problem in your scripts: You should be able to set the irreversibility of reactions in either direction by setting to 1 or -1. As I understand you can currently only set the irreversibilty in the direction of the definition of the reactions (transports). This is especially important with the larger Hepatocyte netwpork where many reactions are defined irreversible but in counterreaction to the definition.
+A related problem is the following: You don't have any beta-Oxidation in any solutions !! Mainly due to the irreversibilty of palmitate transport, meaning that there is never palmitate available for beta-Oxidation. ?? Is this the idea ?
+
+Due to the glucose uptake the network is never used in the glucose synthesizing direction and the reactions of PEPCK and PC are not used in any solutions. Also the glycogen pool is never used in any situtations (is not external metabolite).
+
+Some solutions are a bit strange (perhaps due to the criterium of counting reactions.)
+
+The NADPH to ATP path via OxPhos3 should probably be limited (set low upper bound). Than some of the glucose is burnt in the glycolyis and TCA to generate ATP. In my opinion more physiological. Especially due to the 2 different roles of NADH and NADPH, with NADPH more used in synthesis reactions like fatty acid synthesis.
+
+The idea of a basic usage of ATP and perhaps also NADH -> NAD is very good and makes the simulations probably much more physiological. In the moments especially the NADPH use in OxPhos3 is a bit strange.
+

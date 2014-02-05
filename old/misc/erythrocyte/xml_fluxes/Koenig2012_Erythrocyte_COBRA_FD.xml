@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fluxDistributionCollection>
+   <listOfFluxDistributions>
+      <fluxDistribution id="01_ATP_production" name="01_ATP_production" networkId="Koenig2012_Erythrocyte">
+         <listOfFluxes>
+            <flux fluxValue="0.1" id="GlcT" type="nodeFlux"/>
+            <flux fluxValue="0.1" id="HK" type="nodeFlux"/>
+            <flux fluxValue="-0.1" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="0.1" id="PFK" type="nodeFlux"/>
+            <flux fluxValue="-0.1" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="-0.1" id="TPI" type="nodeFlux"/>
+            <flux fluxValue="0.2" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="0.2" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="-0.2" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="0.2" id="EN" type="nodeFlux"/>
+            <flux fluxValue="0.2" id="PK" type="nodeFlux"/>
+            <flux fluxValue="0.2" id="LDH" type="nodeFlux"/>
+            <flux fluxValue="0.2" id="ATPase" type="nodeFlux"/>
+            <flux fluxValue="0.2" id="LacT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="02_ATP_production" name="02_ATP_production" networkId="Koenig2012_Erythrocyte">
+         <listOfFluxes>
+            <flux fluxValue="0.2" id="GlcT" type="nodeFlux"/>
+            <flux fluxValue="0.2" id="HK" type="nodeFlux"/>
+            <flux fluxValue="-0.2" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="0.2" id="PFK" type="nodeFlux"/>
+            <flux fluxValue="-0.2" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="-0.2" id="TPI" type="nodeFlux"/>
+            <flux fluxValue="0.4" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="0.4" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="-0.4" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="0.4" id="EN" type="nodeFlux"/>
+            <flux fluxValue="0.4" id="PK" type="nodeFlux"/>
+            <flux fluxValue="0.4" id="LDH" type="nodeFlux"/>
+            <flux fluxValue="0.4" id="ATPase" type="nodeFlux"/>
+            <flux fluxValue="0.4" id="LacT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="03_ATP_production" name="03_ATP_production" networkId="Koenig2012_Erythrocyte">
+         <listOfFluxes>
+            <flux fluxValue="0.3" id="GlcT" type="nodeFlux"/>
+            <flux fluxValue="0.3" id="HK" type="nodeFlux"/>
+            <flux fluxValue="-0.3" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="0.3" id="PFK" type="nodeFlux"/>
+            <flux fluxValue="-0.3" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="-0.3" id="TPI" type="nodeFlux"/>
+            <flux fluxValue="0.6" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="0.6" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="-0.6" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="0.6" id="EN" type="nodeFlux"/>
+            <flux fluxValue="0.6" id="PK" type="nodeFlux"/>
+            <flux fluxValue="0.6" id="LDH" type="nodeFlux"/>
+            <flux fluxValue="0.6" id="ATPase" type="nodeFlux"/>
+            <flux fluxValue="0.6" id="LacT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="04_ATP_production" name="04_ATP_production" networkId="Koenig2012_Erythrocyte">
+         <listOfFluxes>
+            <flux fluxValue="0.4" id="GlcT" type="nodeFlux"/>
+            <flux fluxValue="0.4" id="HK" type="nodeFlux"/>
+            <flux fluxValue="-0.4" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="0.4" id="PFK" type="nodeFlux"/>
+            <flux fluxValue="-0.4" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="-0.4" id="TPI" type="nodeFlux"/>
+            <flux fluxValue="0.8" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="0.8" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="-0.8" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="0.8" id="EN" type="nodeFlux"/>
+            <flux fluxValue="0.8" id="PK" type="nodeFlux"/>
+            <flux fluxValue="0.8" id="LDH" type="nodeFlux"/>
+            <flux fluxValue="0.8" id="ATPase" type="nodeFlux"/>
+            <flux fluxValue="0.8" id="LacT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="05_ATP_production" name="05_ATP_production" networkId="Koenig2012_Erythrocyte">
+         <listOfFluxes>
+            <flux fluxValue="0.5" id="GlcT" type="nodeFlux"/>
+            <flux fluxValue="0.5" id="HK" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="0.5" id="PFK" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="TPI" type="nodeFlux"/>
+            <flux fluxValue="1" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="1" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="-1" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="1" id="EN" type="nodeFlux"/>
+            <flux fluxValue="1" id="PK" type="nodeFlux"/>
+            <flux fluxValue="1" id="LDH" type="nodeFlux"/>
+            <flux fluxValue="1" id="ATPase" type="nodeFlux"/>
+            <flux fluxValue="1" id="LacT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="06_ATP_production" name="06_ATP_production" networkId="Koenig2012_Erythrocyte">
+         <listOfFluxes>
+            <flux fluxValue="0.5" id="GlcT" type="nodeFlux"/>
+            <flux fluxValue="0.5" id="HK" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="0.5" id="PFK" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="TPI" type="nodeFlux"/>
+            <flux fluxValue="1" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="1" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="-1" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="1" id="EN" type="nodeFlux"/>
+            <flux fluxValue="1" id="PK" type="nodeFlux"/>
+            <flux fluxValue="1" id="LDH" type="nodeFlux"/>
+            <flux fluxValue="1" id="ATPase" type="nodeFlux"/>
+            <flux fluxValue="1" id="LacT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="07_ATP_production" name="07_ATP_production" networkId="Koenig2012_Erythrocyte">
+         <listOfFluxes>
+            <flux fluxValue="0.5" id="GlcT" type="nodeFlux"/>
+            <flux fluxValue="0.5" id="HK" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="0.5" id="PFK" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="TPI" type="nodeFlux"/>
+            <flux fluxValue="1" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="1" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="-1" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="1" id="EN" type="nodeFlux"/>
+            <flux fluxValue="1" id="PK" type="nodeFlux"/>
+            <flux fluxValue="1" id="LDH" type="nodeFlux"/>
+            <flux fluxValue="1" id="ATPase" type="nodeFlux"/>
+            <flux fluxValue="1" id="LacT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="08_ATP_production" name="08_ATP_production" networkId="Koenig2012_Erythrocyte">
+         <listOfFluxes>
+            <flux fluxValue="0.5" id="GlcT" type="nodeFlux"/>
+            <flux fluxValue="0.5" id="HK" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="0.5" id="PFK" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="TPI" type="nodeFlux"/>
+            <flux fluxValue="1" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="1" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="-1" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="1" id="EN" type="nodeFlux"/>
+            <flux fluxValue="1" id="PK" type="nodeFlux"/>
+            <flux fluxValue="1" id="LDH" type="nodeFlux"/>
+            <flux fluxValue="1" id="ATPase" type="nodeFlux"/>
+            <flux fluxValue="1" id="LacT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="09_ATP_production" name="09_ATP_production" networkId="Koenig2012_Erythrocyte">
+         <listOfFluxes>
+            <flux fluxValue="0.5" id="GlcT" type="nodeFlux"/>
+            <flux fluxValue="0.5" id="HK" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="0.5" id="PFK" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="TPI" type="nodeFlux"/>
+            <flux fluxValue="1" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="1" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="-1" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="1" id="EN" type="nodeFlux"/>
+            <flux fluxValue="1" id="PK" type="nodeFlux"/>
+            <flux fluxValue="1" id="LDH" type="nodeFlux"/>
+            <flux fluxValue="1" id="ATPase" type="nodeFlux"/>
+            <flux fluxValue="1" id="LacT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="10_ATP_production" name="10_ATP_production" networkId="Koenig2012_Erythrocyte">
+         <listOfFluxes>
+            <flux fluxValue="0.5" id="GlcT" type="nodeFlux"/>
+            <flux fluxValue="0.5" id="HK" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="0.5" id="PFK" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="-0.5" id="TPI" type="nodeFlux"/>
+            <flux fluxValue="1" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="1" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="-1" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="1" id="EN" type="nodeFlux"/>
+            <flux fluxValue="1" id="PK" type="nodeFlux"/>
+            <flux fluxValue="1" id="LDH" type="nodeFlux"/>
+            <flux fluxValue="1" id="ATPase" type="nodeFlux"/>
+            <flux fluxValue="1" id="LacT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+   </listOfFluxDistributions>
+</fluxDistributionCollection>

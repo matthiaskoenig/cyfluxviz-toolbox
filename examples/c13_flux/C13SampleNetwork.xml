@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model id="C13SampleNetwork" name="C13SampleNetwork">
+    <listOfCompartments>
+      <compartment id="cell" name="cell" spatialDimensions="3" constant="false"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="AcCoA" name="AcCoA" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Acetate" name="Acetate" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cit" name="Cit" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DHAP" name="DHAP" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="E4P" name="E4P" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="F6P" name="F6P" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="FBP" name="FBP" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Fum" name="Fum" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="G6P" name="G6P" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="GAP" name="GAP" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Glc_ext" name="Glc_ext" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Glyox" name="Glyox" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Icit" name="Icit" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Isocit" name="Isocit" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="KDG" name="KDG" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Mal" name="Mal" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="OAA" name="OAA" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="PEP" name="PEP" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Pyr" name="Pyr" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="R5P" name="R5P" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Ru5P" name="Ru5P" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S7P" name="S7P" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Succ" name="Succ" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="SuccCoA" name="SuccCoA" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TA_C3" name="TA_C3" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TK_C2" name="TK_C2" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="X5P" name="X5P" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="aKG" name="aKG" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="x3PG" name="x3PG" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="x6PG" name="x6PG" compartment="cell" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="Glc_ext__G6P" name="Glc_ext__G6P" reversible="true">
+        <listOfReactants>
+          <speciesReference species="Glc_ext" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="G6P" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="G6P__F6P" name="G6P__F6P" reversible="true">
+        <listOfReactants>
+          <speciesReference species="G6P" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="F6P" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="F6P__FBP" name="F6P__FBP" reversible="true">
+        <listOfReactants>
+          <speciesReference species="F6P" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="FBP" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="FBP__GAP" name="FBP__GAP" reversible="true">
+        <listOfReactants>
+          <speciesReference species="FBP" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="GAP" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="FBP__DHAP" name="FBP__DHAP" reversible="true">
+        <listOfReactants>
+          <speciesReference species="FBP" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DHAP" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="DHAP__GAP" name="DHAP__GAP" reversible="true">
+        <listOfReactants>
+          <speciesReference species="DHAP" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="GAP" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="GAP__x3PG" name="GAP__x3PG" reversible="true">
+        <listOfReactants>
+          <speciesReference species="GAP" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="x3PG" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="x3PG__PEP" name="x3PG__PEP" reversible="true">
+        <listOfReactants>
+          <speciesReference species="x3PG" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="PEP" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="PEP__Pyr" name="PEP__Pyr" reversible="true">
+        <listOfReactants>
+          <speciesReference species="PEP" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Pyr" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="G6P__x6PG" name="G6P__x6PG" reversible="true">
+        <listOfReactants>
+          <speciesReference species="G6P" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="x6PG" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="x6PG__KDG" name="x6PG__KDG" reversible="true">
+        <listOfReactants>
+          <speciesReference species="x6PG" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="KDG" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="KDG__GAP" name="KDG__GAP" reversible="true">
+        <listOfReactants>
+          <speciesReference species="KDG" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="GAP" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="KDG__Pyr" name="KDG__Pyr" reversible="true">
+        <listOfReactants>
+          <speciesReference species="KDG" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Pyr" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="x6PG__Ru5P" name="x6PG__Ru5P" reversible="true">
+        <listOfReactants>
+          <speciesReference species="x6PG" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Ru5P" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="Ru5P__X5P" name="Ru5P__X5P" reversible="true">
+        <listOfReactants>
+          <speciesReference species="Ru5P" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="X5P" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="Ru5P__R5P" name="Ru5P__R5P" reversible="true">
+        <listOfReactants>
+          <speciesReference species="Ru5P" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R5P" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="X5P__GAP" name="X5P__GAP" reversible="true">
+        <listOfReactants>
+          <speciesReference species="X5P" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="GAP" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="X5P__TK_C2" name="X5P__TK_C2" reversible="true">
+        <listOfReactants>
+          <speciesReference species="X5P" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="TK_C2" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R5P__S7P" name="R5P__S7P" reversible="true">
+        <listOfReactants>
+          <speciesReference species="R5P" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S7P" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="TK_C2__S7P" name="TK_C2__S7P" reversible="true">
+        <listOfReactants>
+          <speciesReference species="TK_C2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S7P" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="S7P__TA_C3" name="S7P__TA_C3" reversible="true">
+        <listOfReactants>
+          <speciesReference species="S7P" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="TA_C3" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="S7P__E4P" name="S7P__E4P" reversible="true">
+        <listOfReactants>
+          <speciesReference species="S7P" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="E4P" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="E4P__F6P" name="E4P__F6P" reversible="true">
+        <listOfReactants>
+          <speciesReference species="E4P" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="F6P" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="TK_C2__F6P" name="TK_C2__F6P" reversible="true">
+        <listOfReactants>
+          <speciesReference species="TK_C2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="F6P" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="TA_C3__F6P" name="TA_C3__F6P" reversible="true">
+        <listOfReactants>
+          <speciesReference species="TA_C3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="F6P" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="GAP__F6P" name="GAP__F6P" reversible="true">
+        <listOfReactants>
+          <speciesReference species="GAP" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="F6P" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="Pyr__AcCoA" name="Pyr__AcCoA" reversible="true">
+        <listOfReactants>
+          <speciesReference species="Pyr" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="AcCoA" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="AcCoA__Acetate" name="AcCoA__Acetate" reversible="true">
+        <listOfReactants>
+          <speciesReference species="AcCoA" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Acetate" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="AcCoA__Cit" name="AcCoA__Cit" reversible="true">
+        <listOfReactants>
+          <speciesReference species="AcCoA" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cit" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="Cit__Icit" name="Cit__Icit" reversible="true">
+        <listOfReactants>
+          <speciesReference species="Cit" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Icit" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="Icit__aKG" name="Icit__aKG" reversible="true">
+        <listOfReactants>
+          <speciesReference species="Icit" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="aKG" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="aKG__SuccCoA" name="aKG__SuccCoA" reversible="true">
+        <listOfReactants>
+          <speciesReference species="aKG" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="SuccCoA" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="SuccCoA__Succ" name="SuccCoA__Succ" reversible="true">
+        <listOfReactants>
+          <speciesReference species="SuccCoA" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Succ" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="Succ__Fum" name="Succ__Fum" reversible="true">
+        <listOfReactants>
+          <speciesReference species="Succ" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Fum" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="Fum__Mal" name="Fum__Mal" reversible="true">
+        <listOfReactants>
+          <speciesReference species="Fum" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mal" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="Mal__OAA" name="Mal__OAA" reversible="true">
+        <listOfReactants>
+          <speciesReference species="Mal" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="OAA" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="Isocit__Succ" name="Isocit__Succ" reversible="true">
+        <listOfReactants>
+          <speciesReference species="Isocit" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Succ" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="Isocit__Glyox" name="Isocit__Glyox" reversible="true">
+        <listOfReactants>
+          <speciesReference species="Isocit" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Glyox" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="Glyox__Mal" name="Glyox__Mal" reversible="true">
+        <listOfReactants>
+          <speciesReference species="Glyox" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mal" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="AcCoA__Mal" name="AcCoA__Mal" reversible="true">
+        <listOfReactants>
+          <speciesReference species="AcCoA" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Mal" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="PEP__OAA" name="PEP__OAA" reversible="true">
+        <listOfReactants>
+          <speciesReference species="PEP" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="OAA" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="OAA__Cit" name="OAA__Cit" reversible="true">
+        <listOfReactants>
+          <speciesReference species="OAA" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cit" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

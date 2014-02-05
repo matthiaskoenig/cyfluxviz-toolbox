@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fluxDistributionCollection>
+   <listOfFluxDistributions>
+      <fluxDistribution id="001_kinetic_t-0.0" name="001_kinetic_t-0.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="4.5455" id="b1" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="002_kinetic_t-1.0" name="002_kinetic_t-1.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="2.6658" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.54123" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.20157" id="b3" type="nodeFlux"/>
+            <flux fluxValue="1.5928" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.83613" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.045324" id="v3" type="nodeFlux"/>
+            <flux fluxValue="0.027876" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="003_kinetic_t-2.0" name="003_kinetic_t-2.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="1.9486" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.55949" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.27959" id="b3" type="nodeFlux"/>
+            <flux fluxValue="1.447" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.81428" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.094825" id="v3" type="nodeFlux"/>
+            <flux fluxValue="0.020177" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="004_kinetic_t-3.0" name="004_kinetic_t-3.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="1.3372" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.49902" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.27091" id="b3" type="nodeFlux"/>
+            <flux fluxValue="1.0972" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.6772" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.12934" id="v3" type="nodeFlux"/>
+            <flux fluxValue="0.0037294" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="005_kinetic_t-4.0" name="005_kinetic_t-4.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.81342" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.41441" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.23113" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.74123" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.52203" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.15013" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.0063997" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="006_kinetic_t-5.0" name="006_kinetic_t-5.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.44882" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.32232" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.18085" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.45167" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.38784" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.15999" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.010071" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="007_kinetic_t-6.0" name="007_kinetic_t-6.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.23745" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.2359" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.13205" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.25664" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.29323" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.16294" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.009857" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="008_kinetic_t-7.0" name="008_kinetic_t-7.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.12524" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.16413" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.091443" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.14127" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.23484" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.1626" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.0080186" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="009_kinetic_t-8.0" name="009_kinetic_t-8.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.066931" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.10982" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.060932" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.077329" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.20105" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.1612" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.005906" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="010_kinetic_t-9.0" name="010_kinetic_t-9.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.036442" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.071378" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.039508" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.042668" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.18191" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.15976" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.0041033" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="011_kinetic_t-10.0" name="011_kinetic_t-10.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.020231" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.045423" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.025132" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.023866" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.17108" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.1586" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.0027539" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="012_kinetic_t-11.0" name="012_kinetic_t-11.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.011436" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.028463" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.015777" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.013548" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.1649" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.15777" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.0018131" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="013_kinetic_t-12.0" name="013_kinetic_t-12.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.0065653" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.017635" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.0098161" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.0077949" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.16134" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.15721" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.0011835" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="014_kinetic_t-13.0" name="014_kinetic_t-13.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.0038177" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.010834" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.0060721" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.0045362" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.15927" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.15684" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.00077181" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="015_kinetic_t-14.0" name="015_kinetic_t-14.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.0022427" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.006613" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.0037437" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.0026636" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.15805" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.15661" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.00050597" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="016_kinetic_t-15.0" name="016_kinetic_t-15.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.0013275" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.0040149" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.0023051" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.0015745" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.15732" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.15647" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.00033506" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="017_kinetic_t-16.0" name="017_kinetic_t-16.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.00079059" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.0024261" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.0014201" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.00093519" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.15689" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.15638" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.00022502" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="018_kinetic_t-17.0" name="018_kinetic_t-17.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.00047282" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.0014593" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.00087669" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.00055715" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.15664" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.15633" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.00015373" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="019_kinetic_t-18.0" name="019_kinetic_t-18.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.00028357" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.0008734" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.0005433" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.0003324" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.15648" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.1563" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-0.00010704" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="020_kinetic_t-19.0" name="020_kinetic_t-19.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.00017054" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.0005197" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.00033863" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.00019839" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.15639" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.15628" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-7.6043e-005" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="021_kinetic_t-20.0" name="021_kinetic_t-20.0" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="0.0001028" id="b1" type="nodeFlux"/>
+            <flux fluxValue="0.00030696" id="b2" type="nodeFlux"/>
+            <flux fluxValue="0.00021272" id="b3" type="nodeFlux"/>
+            <flux fluxValue="0.0001183" id="v1" type="nodeFlux"/>
+            <flux fluxValue="0.15633" id="v2" type="nodeFlux"/>
+            <flux fluxValue="0.15626" id="v3" type="nodeFlux"/>
+            <flux fluxValue="-5.5109e-005" id="v4" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+   </listOfFluxDistributions>
+</fluxDistributionCollection>

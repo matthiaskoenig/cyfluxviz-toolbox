@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fluxDistributionCollection>
+   <listOfFluxDistributions>
+      <fluxDistribution id="C13_sol_1" name="C13_sol_1" networkId="C13SampleNetwork">
+         <listOfFluxes>
+            <flux fluxValue="100" id="Glc_ext__G6P" type="nodeFlux"/>
+            <flux fluxValue="72" id="G6P__F6P" type="nodeFlux"/>
+            <flux fluxValue="81" id="F6P__FBP" type="nodeFlux"/>
+            <flux fluxValue="81" id="FBP__GAP" type="nodeFlux"/>
+            <flux fluxValue="81" id="FBP__DHAP" type="nodeFlux"/>
+            <flux fluxValue="81" id="DHAP__GAP" type="nodeFlux"/>
+            <flux fluxValue="186" id="GAP__x3PG" type="nodeFlux"/>
+            <flux fluxValue="149" id="x3PG__PEP" type="nodeFlux"/>
+            <flux fluxValue="114" id="PEP__Pyr" type="nodeFlux"/>
+            <flux fluxValue="28" id="G6P__x6PG" type="nodeFlux"/>
+            <flux fluxValue="2" id="x6PG__KDG" type="nodeFlux"/>
+            <flux fluxValue="2" id="KDG__GAP" type="nodeFlux"/>
+            <flux fluxValue="2" id="KDG__Pyr" type="nodeFlux"/>
+            <flux fluxValue="26" id="x6PG__Ru5P" type="nodeFlux"/>
+            <flux fluxValue="10" id="Ru5P__X5P" type="nodeFlux"/>
+            <flux fluxValue="16" id="Ru5P__R5P" type="nodeFlux"/>
+            <flux fluxValue="10" id="X5P__GAP" type="nodeFlux"/>
+            <flux fluxValue="10" id="X5P__TK_C2" type="nodeFlux"/>
+            <flux fluxValue="7" id="R5P__S7P" type="nodeFlux"/>
+            <flux fluxValue="7" id="TK_C2__S7P" type="nodeFlux"/>
+            <flux fluxValue="7" id="S7P__TA_C3" type="nodeFlux"/>
+            <flux fluxValue="7" id="S7P__E4P" type="nodeFlux"/>
+            <flux fluxValue="3" id="E4P__F6P" type="nodeFlux"/>
+            <flux fluxValue="3" id="TK_C2__F6P" type="nodeFlux"/>
+            <flux fluxValue="7" id="TA_C3__F6P" type="nodeFlux"/>
+            <flux fluxValue="7" id="GAP__F6P" type="nodeFlux"/>
+            <flux fluxValue="90" id="Pyr__AcCoA" type="nodeFlux"/>
+            <flux fluxValue="41" id="AcCoA__Acetate" type="nodeFlux"/>
+            <flux fluxValue="20" id="AcCoA__Cit" type="nodeFlux"/>
+            <flux fluxValue="20" id="Cit__Icit" type="nodeFlux"/>
+            <flux fluxValue="20" id="Icit__aKG" type="nodeFlux"/>
+            <flux fluxValue="9" id="aKG__SuccCoA" type="nodeFlux"/>
+            <flux fluxValue="5" id="SuccCoA__Succ" type="nodeFlux"/>
+            <flux fluxValue="10" id="Succ__Fum" type="nodeFlux"/>
+            <flux fluxValue="13" id="Fum__Mal" type="nodeFlux"/>
+            <flux fluxValue="14" id="Mal__OAA" type="nodeFlux"/>
+            <flux fluxValue="1" id="Isocit__Succ" type="nodeFlux"/>
+            <flux fluxValue="1" id="Isocit__Glyox" type="nodeFlux"/>
+            <flux fluxValue="1" id="Glyox__Mal" type="nodeFlux"/>
+            <flux fluxValue="1" id="AcCoA__Mal" type="nodeFlux"/>
+            <flux fluxValue="27" id="PEP__OAA" type="nodeFlux"/>
+            <flux fluxValue="20" id="OAA__Cit" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="C13_sol_2" name="C13_sol_2" networkId="C13SampleNetwork">
+         <listOfFluxes>
+            <flux fluxValue="100" id="Glc_ext__G6P" type="nodeFlux"/>
+            <flux fluxValue="72" id="G6P__F6P" type="nodeFlux"/>
+            <flux fluxValue="81" id="F6P__FBP" type="nodeFlux"/>
+            <flux fluxValue="81" id="FBP__GAP" type="nodeFlux"/>
+            <flux fluxValue="28" id="FBP__DHAP" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+   </listOfFluxDistributions>
+</fluxDistributionCollection>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fluxDistributionCollection>
+   <listOfFluxDistributions>
+      <fluxDistribution id="FBA_test" name="FBA_test" networkId="Koenig2012_demo">
+         <listOfFluxes>
+            <flux fluxValue="1" id="b1" type="nodeFlux"/>
+            <flux fluxValue="1" id="b2" type="nodeFlux"/>
+            <flux fluxValue="1" id="v1" type="nodeFlux"/>
+            <flux fluxValue="-1" id="Ex_A_out" type="nodeFlux"/>
+            <flux fluxValue="1" id="Ex_B_out" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+   </listOfFluxDistributions>
+</fluxDistributionCollection>

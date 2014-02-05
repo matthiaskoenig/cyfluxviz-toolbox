@@ -1,0 +1,8 @@
+
+
+
+
+REMOVE GLOBAL compartment.constant
+SET GLOBAL compartment.constant="true"
+
+SET GLOBAL species.

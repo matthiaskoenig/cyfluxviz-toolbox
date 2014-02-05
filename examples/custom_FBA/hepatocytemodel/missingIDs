@@ -1,0 +1,24 @@
+ Reaction IDs in reversibility.txt that do not appear in the model:
+ID_17814_cytosol
+ID_18543_cytosol
+ID_17870_cytosol
+ID_18486_cytosol
+ID_19273_cytosol
+ID_14074_cytosol
+ID_14073_cytosol
+ID_13887_cytosol
+ID_17882_cytosol
+ID_17882_mitochondrial_matrix
+ID_18176_cytosol
+ID_18176_mitochondrial_matrix
+ID_13622_cytosol
+ID_13633_cytosol
+ID_13652_cytosol
+ID_13633_mitochondrial_matrix
+ID_13652_mitochondrial_matrix
+ID_13640_blood_circulation
+ID_13638_blood_circulation
+ID_13886_blood_circulation
+ID_13885_blood_circulation
+ID_21246_mitochondrial_matrix
+ID_18973_cytosol

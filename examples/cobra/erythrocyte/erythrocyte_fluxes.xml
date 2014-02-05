@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fluxDistributionCollection>
+   <listOfFluxDistributions>
+      <fluxDistribution id="01_max_ATP" name="01_max_ATP" networkId="Koenig2013_Erythrocyte">
+         <listOfFluxes>
+            <flux fluxValue="5" id="GlcT" type="nodeFlux"/>
+            <flux fluxValue="5" id="HK" type="nodeFlux"/>
+            <flux fluxValue="-5" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="5" id="PFK" type="nodeFlux"/>
+            <flux fluxValue="-5" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="-5" id="TPI" type="nodeFlux"/>
+            <flux fluxValue="10" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="10" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="-10" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="10" id="EN" type="nodeFlux"/>
+            <flux fluxValue="10" id="PK" type="nodeFlux"/>
+            <flux fluxValue="10" id="LDH" type="nodeFlux"/>
+            <flux fluxValue="10" id="ATPase" type="nodeFlux"/>
+            <flux fluxValue="10" id="LacT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="02_max_PRPP" name="02_max_PRPP" networkId="Koenig2013_Erythrocyte">
+         <listOfFluxes>
+            <flux fluxValue="5" id="GlcT" type="nodeFlux"/>
+            <flux fluxValue="5" id="HK" type="nodeFlux"/>
+            <flux fluxValue="-5" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="3.5714" id="PFK" type="nodeFlux"/>
+            <flux fluxValue="-3.5714" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="-3.5714" id="TPI" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="-6.4286" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="EN" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="PK" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="LDH" type="nodeFlux"/>
+            <flux fluxValue="-2.1429" id="AK" type="nodeFlux"/>
+            <flux fluxValue="-1.4286" id="EP" type="nodeFlux"/>
+            <flux fluxValue="1.4286" id="KI" type="nodeFlux"/>
+            <flux fluxValue="-0.71429" id="TK1" type="nodeFlux"/>
+            <flux fluxValue="-0.71429" id="TA" type="nodeFlux"/>
+            <flux fluxValue="2.1429" id="PRPPS" type="nodeFlux"/>
+            <flux fluxValue="-0.71429" id="TK2" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="PT" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="LacT" type="nodeFlux"/>
+            <flux fluxValue="2.1429" id="PPrPT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+      <fluxDistribution id="03_max_ATP_PRPP" name="03_max_ATP_PRPP" networkId="Koenig2013_Erythrocyte">
+         <listOfFluxes>
+            <flux fluxValue="5" id="GlcT" type="nodeFlux"/>
+            <flux fluxValue="5" id="HK" type="nodeFlux"/>
+            <flux fluxValue="-5" id="GPI" type="nodeFlux"/>
+            <flux fluxValue="3.5714" id="PFK" type="nodeFlux"/>
+            <flux fluxValue="-3.5714" id="ALD" type="nodeFlux"/>
+            <flux fluxValue="-3.5714" id="TPI" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="GAPDH" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="PGK" type="nodeFlux"/>
+            <flux fluxValue="-6.4286" id="PGM" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="EN" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="PK" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="LDH" type="nodeFlux"/>
+            <flux fluxValue="-2.1429" id="AK" type="nodeFlux"/>
+            <flux fluxValue="-1.4286" id="EP" type="nodeFlux"/>
+            <flux fluxValue="1.4286" id="KI" type="nodeFlux"/>
+            <flux fluxValue="-0.71429" id="TK1" type="nodeFlux"/>
+            <flux fluxValue="-0.71429" id="TA" type="nodeFlux"/>
+            <flux fluxValue="2.1429" id="PRPPS" type="nodeFlux"/>
+            <flux fluxValue="-0.71429" id="TK2" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="PT" type="nodeFlux"/>
+            <flux fluxValue="6.4286" id="LacT" type="nodeFlux"/>
+            <flux fluxValue="2.1429" id="PPrPT" type="nodeFlux"/>
+         </listOfFluxes>
+      </fluxDistribution>
+   </listOfFluxDistributions>
+</fluxDistributionCollection>

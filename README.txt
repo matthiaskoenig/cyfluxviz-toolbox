@@ -9,8 +9,8 @@ into flux files for CyFluxViz.
 	author: Matthias König
 	affiliation: Charite Berlin
 	contact: matthias.koenig@charite.de
-	data: 2013-08-06
-	Copyright © Matthias König 2013 All Rights Reserved.
+	date: 2014-04-05
+	Copyright © Matthias König 2014 All Rights Reserved.
 
 Please cite:
 	Matthias König and Hermann-Georg Holzhütter
@@ -39,14 +39,21 @@ Please cite:
 ###############################################################################
 	Installation
 ###############################################################################
-From MATLAB, run
-  initCyFluxVizToolbox
+requirements:
+	MATLAB
+	COBRA toolbox
+	SBML toolbox
 
-Usage examples are provided in the
+Download the source code, extract and run in MATLAB in the source folder the
+  install_cyfluxfiz_toolbox
+script. This will add the scripts of the toolbox to the MATLAB path.
+
+Various examples are provided in the
 	./examples
-subfolder.
+subfolder with COBRA examples in 
+	./examples/cobra
 
-For COBRA support the COBRA Toolbox has to be installed (for further information
+To run the COBRA examples the COBRA Toolbox must be installed (for further information
 see http://opencobra.sourceforge.net/openCOBRA/Welcome.html)
 
 For some features (mainly the conversion of C13 flux data to CyFluxViz formats)
@@ -76,6 +83,10 @@ If you can show me how to access this information I can show you how to use it t
 ###############################################################################
 	ChangeLog 
 ###############################################################################
+v0.05 [2014-04-05]
+- cleaner installation script
+- additional documentation & chlamydomonas example
+
 v.0.04 [2013-08-30]
 - support of COBRA subsystems. Generation of Cytoscape node attribute files from
 	the COBRA model struct.
